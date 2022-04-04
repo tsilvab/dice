@@ -1,7 +1,7 @@
 //dice on left
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //random number 1-6
 
-// var randomDiceImage = "Dice" + randomNumber1 + ".png"; //dice1.png-dice6.png
+// var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png-dice6.png
 
 var randomImageSource = "images/dice" + randomNumber1 + ".png"; //images/dice1.png-images/dice6.png
 
