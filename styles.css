@@ -14,12 +14,14 @@ body {
   background-color: #404142;
 }
 
-h1 {
+button {
+  background-color: #404142;
   margin: 30px;
   font-family: 'Lobster';
   text-shadow: 5px 0 #232931;
   font-size: 6rem;
   color: #ac961b;
+  cursor: pointer;
 
 }
 
@@ -28,6 +30,7 @@ h2{
   font-size: 3rem;
   font-family: 'Lobster';
   text-shadow: 5px 0 #232931;
+  
 }
 
 p {

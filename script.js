@@ -1,4 +1,4 @@
-
+function diceRoll(){
 //dice on left
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //random number 1-6
 
@@ -29,6 +29,8 @@ else if (randomNumber2 > randomNumber1) {
 else {
     document.querySelector("h2").textContent = "Draw!"
 }
+};
 
-// var diceRollButton = document.createElement("button").innerHTML = "Roll Dice 🎲";
-// diceRollButton.prepend("h2");
+diceRoll();
+
+document.querySelector("button").addEventListener("click", diceRoll);
