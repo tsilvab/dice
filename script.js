@@ -1,9 +1,9 @@
 //dice on left
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //random number 1-6
 
-var randomDiceImage = "Dice" + randomNumber1 + ".png"; //dice1.png-dice6.png
+// var randomDiceImage = "Dice" + randomNumber1 + ".png"; //dice1.png-dice6.png
 
-var randomImageSource = "images/" + randomDiceImage; //images/dice1.png-images/dice6.png
+var randomImageSource = "images/dice" + randomNumber1 + ".png"; //images/dice1.png-images/dice6.png
 
 var image1 = document.querySelectorAll("img")[0];
 
@@ -29,3 +29,6 @@ else if (randomNumber2 > randomNumber1) {
 else {
     document.querySelector("h1").innerHTML = "Draw!"
 }
+
+var diceRollButton = document.createElement("button").innerHTML = "Roll Dice 🎲";
+diceRollButton.prepend("h1");
